@@ -15,6 +15,7 @@ sudo apt-get update
 
 # Install the Docker packages:
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo docker --version
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo systemctl status docker
